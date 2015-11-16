@@ -1,0 +1,61 @@
+﻿Build started 11/15/2015 11:32:31 PM.
+     1>Project "E:\Users\gentle\GitHub\3DEngineCpp_31\3DEngineCpp\3DEngineCpp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"glew-1.9.0/include" /I"SDL2-2.0.0/include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt basicShader.cpp camera.cpp game.cpp input.cpp main.cpp matrix4f.cpp mesh.cpp phongShader.cpp quaternion.cpp renderUtil.cpp sdl_backend.cpp shader.cpp texture.cpp time.cpp transform.cpp util.cpp vector2f.cpp vector3f.cpp window.cpp
+         window.cpp
+         vector3f.cpp
+         vector2f.cpp
+         util.cpp
+         transform.cpp
+         time.cpp
+         texture.cpp
+         shader.cpp
+         sdl_backend.cpp
+         renderUtil.cpp
+         quaternion.cpp
+         phongShader.cpp
+         mesh.cpp
+         matrix4f.cpp
+         main.cpp
+         input.cpp
+         game.cpp
+         camera.cpp
+         basicShader.cpp
+         Generating Code...
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"glew-1.9.0/include" /I"SDL2-2.0.0/include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt stb_image.c
+         stb_image.c
+     1>e:\users\gentle\github\3denginecpp_31\3denginecpp\stb_image.c(300): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\users\gentle\github\3denginecpp_31\3denginecpp\stb_image.c(362): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\users\gentle\github\3denginecpp_31\3denginecpp\stb_image.c(400): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\users\gentle\github\3denginecpp_31\3denginecpp\stb_image.c(4293): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Users\gentle\GitHub\3DEngineCpp_31\Debug\3DEngineCpp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"glew-1.9.0/lib" /LIBPATH:"SDL2-2.0.0/lib/x86" SDL2.lib SDL2main.lib opengl32.lib glu32.lib glew32.lib glew32mx.lib glew32mxs.lib glew32s.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Users\gentle\GitHub\3DEngineCpp_31\Debug\3DEngineCpp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Users\gentle\GitHub\3DEngineCpp_31\Debug\3DEngineCpp.lib" /MACHINE:X86 Debug\basicShader.obj
+         Debug\camera.obj
+         Debug\game.obj
+         Debug\input.obj
+         Debug\main.obj
+         Debug\matrix4f.obj
+         Debug\mesh.obj
+         Debug\phongShader.obj
+         Debug\quaternion.obj
+         Debug\renderUtil.obj
+         Debug\sdl_backend.obj
+         Debug\shader.obj
+         Debug\stb_image.obj
+         Debug\texture.obj
+         Debug\time.obj
+         Debug\transform.obj
+         Debug\util.obj
+         Debug\vector2f.obj
+         Debug\vector3f.obj
+         Debug\window.obj
+         3DEngineCpp.vcxproj -> E:\Users\gentle\GitHub\3DEngineCpp_31\Debug\3DEngineCpp.exe
+     1>Done Building Project "E:\Users\gentle\GitHub\3DEngineCpp_31\3DEngineCpp\3DEngineCpp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.41
